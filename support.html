@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support the Conservation Workshop</title>
+<meta name="description" content="Pay for the treatment of the next icon, felt or chalice in the queue.">
+<link rel="canonical" href="https://palace-workshop.korkom.org/support.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Support the Conservation Workshop">
+<meta property="og:description" content="Pay for the treatment of the next icon, felt or chalice in the queue.">
+<meta property="og:url" content="https://palace-workshop.korkom.org/support.html">
+<meta property="og:image" content="https://palace-workshop.korkom.org/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=Red+Hat+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body><div class="cw"><header class="hd"><a class="nm" href="index.html"><svg aria-hidden="true" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="d"><circle cx="60" cy="60" r="50"/></clipPath></defs>
+<circle cx="60" cy="60" r="56" fill="none" stroke="#24211d" stroke-width="2"/>
+<g clip-path="url(#d)"><rect width="120" height="120" fill="#5a3d1c"/><path d="M0 120 L120 0 V120 Z" fill="#4a3216"/>
+<rect x="56" y="30" width="34" height="34" fill="#c99a2e"/><path d="M56 64 L90 30 V64 Z" fill="#244a8f"/></g>
+<rect x="56" y="30" width="34" height="34" fill="none" stroke="#f4efe4" stroke-width="2"/></svg>Conservation Workshop of the Palace of Art</a><nav aria-label="Workshop"><a href="index.html">On the bench</a><a href="work.html">Work log</a><a href="crafts.html">What we treat</a><a href="parishes.html">For parishes and families</a><a href="about.html">The workshop</a><a href="support.html" aria-current=page>Support</a></nav></header><main><div class="col"><h1>Support</h1><p class="lede">An icon like the one from Sary-Bulak costs about 180,000 som to treat: materials, solvents, gold leaf and eight months of a conservator’s time. Every gift goes to the next object in the queue.</p>
+<form class="f" id="cw-f" novalidate><span style="font:500 12px 'Red Hat Mono',monospace;text-transform:uppercase;letter-spacing:.04em;color:var(--mute)">Amount</span>
+<div class="amounts" role="group" aria-label="Amount"><button type="button" aria-pressed="false">5,000 som</button><button type="button" aria-pressed="true">20,000 som</button><button type="button" aria-pressed="false">60,000 som</button><button type="button" aria-pressed="false">180,000 som: one icon</button></div>
+<label for="cw-n">Your name<input id="cw-n" autocomplete="name"></label><label for="cw-e">E-mail<input id="cw-e" type="email" autocomplete="email"></label>
+<button class="give" type="submit">Pledge the gift</button><p class="msg" id="cw-msg" aria-live="polite"></p></form>
+<p style="margin-top:20px;font-size:15px;color:var(--mute)">Gifts are received by the Körköm Foundation, reg. No. 0412-NKO, for the Conservation Workshop. Gifts of 180,000 som or more are named in the treatment report, if you wish.</p></div></main><footer><span>Conservation Workshop of the Palace of Art · Cathedral Street 4, Iyık Janyl (courtyard entrance) · workshop@korkom.org</span><span>Part of the <a href="https://palace.korkom.org/">Palace of Art</a>. Two conservators’ posts and the materials are paid for by the <a href="https://korkom.org/">Körköm Foundation</a>. Updated 05.11.2026.</span></footer></div><script>(function(){var r=document.getElementById('cw-r'),p=document.getElementById('cw-panel');if(r&&p){var set=function(){p.style.setProperty('--cut',r.value+'%');};r.addEventListener('input',set);set();}
+var am=document.querySelector('.amounts');if(am)am.addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;am.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');});
+var f=document.getElementById('cw-f');if(f)f.addEventListener('submit',function(e){e.preventDefault();var m=document.getElementById('cw-msg'),n=document.getElementById('cw-n').value.trim(),a=am.querySelector('[aria-pressed="true"]');
+if(!n){m.className='msg err';m.textContent='Please write your name.';return;}m.className='msg';m.textContent='Thank you, '+n+'. The foundation will write to you with the bank details for '+a.textContent+'.';});})();</script></body>
+</html>
